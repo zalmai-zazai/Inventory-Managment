@@ -10,3 +10,4 @@ Features
 •	PDF Receipt Generation: Save sales receipts as PDFs automatically after checkout.
 •	Daily Sales Summary: View total sales amount for the current day.
 •	Persistent Data: Inventory and sales data saved in localStorage for browser persistence.
+Project link:: https://inventory-managments.netlify.app/
