@@ -1,0 +1,13 @@
+[
+    { "id": 1, "barcode": "1001", "name": "Apple", "price": 1.2, "stock": 50, "category": "Fruits" },
+    { "id": 2, "barcode": "1002", "name": "Banana", "price": 0.8, "stock": 100, "category": "Fruits" },
+    { "id": 3, "barcode": "1003", "name": "Carrot", "price": 0.5, "stock": 80, "category": "Vegetables" },
+    { "id": 4, "barcode": "1004", "name": "Milk", "price": 2.5, "stock": 40, "category": "Dairy" },
+    { "id": 5, "barcode": "1005", "name": "Bread", "price": 1.5, "stock": 30, "category": "Bakery" },
+    { "id": 6, "barcode": "1006", "name": "Orange Juice", "price": 3.0, "stock": 20, "category": "Drinks" },
+    { "id": 7, "barcode": "1007", "name": "Eggs", "price": 2.2, "stock": 60, "category": "Dairy" },
+    { "id": 8, "barcode": "1008", "name": "Rice", "price": 5.0, "stock": 100, "category": "Grains" },
+    { "id": 9, "barcode": "1009", "name": "Tomato", "price": 0.9, "stock": 70, "category": "Vegetables" },
+    { "id": 10, "barcode": "1010", "name": "Water Bottle", "price": 1.0, "stock": 200, "category": "Drinks" }
+  ]
+  
