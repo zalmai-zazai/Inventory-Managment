@@ -1,12 +1,60 @@
-# React + Vite
+# 🧾 Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Inventory and Sales Management** system built using **React**, designed to help small businesses track their product inventory and generate invoices for each sale.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📦 **Inventory Management**: Add, update, and track stock levels by barcode.
+- 🛒 **Cart System**: Add items to the cart by scanning a barcode or clicking on items.
+- 🧾 **Sales Invoicing**: Auto-generates a new invoice number for every sale.
+- 📈 **Sales Summary**: Shows total sales made for the current day.
+- 🖨️ **Print Receipt**: Generates and saves a clean receipt as PDF using `react-to-print`.
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+├── src/
+│   ├── components/
+│   ├── SellerPage.jsx
+│   └── ...
+├── public/
+│   └── ...
+└── README.md
+```
+
+## 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/inventory-management.git
+
+# Navigate to the project directory
+cd inventory-management
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+## 📦 Local Storage Keys
+
+- `inventory-items`: stores inventory product data.
+- `sales-invoices`: stores generated invoices.
+- `last-invoice-number`: stores the most recent invoice number for auto-incrementing.
+
+## 📄 Technologies Used
+
+- React (with Hooks)
+- Local Storage API
+- Tailwind CSS (for styling)
+- react-to-print (for generating printable receipts)
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+> Made with 💻 by Zalmai Zazai
