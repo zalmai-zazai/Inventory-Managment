@@ -2,6 +2,8 @@
 
 This is a simple **Inventory and Sales Management** system built using **React**, designed to help small businesses track their product inventory and generate invoices for each sale.
 
+Link: https://inventory-managments.netlify.app/
+
 ## 🚀 Features
 
 - 📦 **Inventory Management**: Add, update, and track stock levels by barcode.
