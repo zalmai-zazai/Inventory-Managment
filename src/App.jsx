@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import SellerPage from "./Pages/SellerPage";
 
-import PrivateRoute from "./components/PrivateRoute";
+import PrivateRoute from "./Components/PrivateRoute";
 import InvoicesPage from "./Pages/InvoicesPage";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import InventoryPage from "./Pages/InventoryPage";
 
 function App() {
