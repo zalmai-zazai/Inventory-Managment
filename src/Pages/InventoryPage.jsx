@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import AddItemForm from "../Components/AddItemForm";
+import AddItemForm from "../components/AddItemForm";
 
 export default function InventoryPage() {
   // Lazy initialize items from localStorage or empty array
