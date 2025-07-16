@@ -119,7 +119,7 @@ VITE_FIREBASE_APP_ID=your_app_id
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/inventory-management.git
+git clone https://github.com/Zalmai-zazai/inventory-management.git
 cd inventory-management
 
 # Install dependencies
